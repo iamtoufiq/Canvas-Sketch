@@ -1,0 +1,22 @@
+.menuContainer {
+    @apply absolute px-5 py-1 flex justify-between w-1/4 left-1/2 top-10 rounded-md;
+    /* border: 1px solid theme('colors.border1'); */
+    border: 1px solid theme('colors.black');
+    transform: translateX(-50%);
+    /* box-shadow: theme('colors.shadow1'); */
+    box-shadow: "0px 7px 14px rgba(0 , 0 , 0, 0.05), 0px 0px 3.12708px rgba(0 , 0 , 0 , 0.0798), 0px 0px 0.931014px rgba(0 , 0 , 0  , 0.1702) ";
+    background-color: rgba(255,255,255,0.9);
+
+
+    .iconWrapper{
+        @apply cursor-pointer flex justify-center items-center h-10 w-10 rounded-md;
+        &:hover , &.active{
+            background-color: #e3e2fe;
+        }
+        .icon{
+            color: #3d3d3d;
+            font-size: 20px;
+        }
+    }
+  }
+  
